@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
             obscureText: statusPassword,
             decoration: InputDecoration(
               labelText: 'Password',
-              hintText: 'Enter your password',
+              hintText: 'Enter password',
               prefixIcon: Icon(Icons.lock),
               suffixIcon: IconButton(
                 icon: Icon(statusPassword ? Icons.visibility_off: Icons.visibility),
